@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.icard{
+    width: 350px;
+    height: 250px;
+   
+    margin: 0px auto;
+}
+
+.profile{
+    width: 50%;
+    height: 100%;
+    float: left;
+   
+}
+
+.profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.data{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.data h2{
+    padding-bottom: 10px;
+}
+
+.data p{
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.data Address{
+    padding-bottom: 10px;
+}
