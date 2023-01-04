@@ -1,0 +1,41 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+
+}   
+.product{
+    width: 22%;
+    height: 180px;
+    float: left;
+    margin: 10px;
+    min-width: 200px;
+    max-width: 220px;
+    
+}
+
+.imageCON{
+    width: 100%;
+    height: 80%;
+   
+    
+}
+
+.data{
+    width: 100%;
+    height: 20%; 
+    text-align: center;
+    font-style: italic;
+}
+
+.imageCON img{
+    width: 100%;
+    height: 100%; 
+}
