@@ -1,0 +1,182 @@
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../css/font/Poppins/Poppins-Black.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+ @font-face {
+    font-family: 'poppins';
+    src: url(../css/font/Poppins/Poppins-BlackItalic.ttf);
+    font-weight:normal ;
+    font-style: italic;
+ }
+
+ @font-face {
+    font-family: 'poppins';
+    src: url(../css/font/Poppins/Poppins-Bold.ttf);
+    font-weight:bold ;
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'poppins';
+    src: url(../css/font/Poppins/Poppins-BoldItalic.ttf);
+    font-weight:bold ;
+    font-style: italic;
+ }
+
+ @font-face {
+    font-family:'caviar';
+    src: url(../css/font/Caviar-Dreams/CaviarDreams.ttf);
+    font-style: normal ;
+    font-weight: normal;
+}
+@font-face {
+    font-family:'caviar';
+    src: url(../css/font/Caviar-Dreams/Caviar_Dreams_Bold.ttf);
+    font-style: normal ;
+    font-weight: bold;
+}
+@font-face {
+    font-family:'caviar';
+    src: url(../css/font/Caviar-Dreams/CaviarDreams_BoldItalic.ttf);
+    font-style: Italic ;
+    font-weight: bold;
+
+}
+@font-face {
+    font-family:'caviar';
+    src: url(../css/font/Caviar-Dreams/CaviarDreams_Italic.ttf);
+    font-style: italic ;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'teko';
+    src: url();
+}
+
+#Serif{
+
+    font-family: serif;
+    font-size: 20px;
+}
+
+#sans-serif{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#Monospace{
+    font-family:Monospace;
+    font-size: 20px;
+}
+
+#Fantacy{
+    font-family:Fantacy;
+    font-size: 20px;
+}
+
+#cur{
+    font-family:Cursive;
+    font-size: 20px;
+}
+#pixel{
+    font-size: 30px;
+}
+#per{
+    font-size: 200%;
+}
+.parant{
+    font-size:32px ;
+}
+#em{
+    font-size:2em;
+}
+#em span{
+    font-size: 2em;
+}
+#rem{
+    font-size: 3rem;
+}
+
+#viewport{
+    font-size:3vw;
+}
+
+
+#poppins{
+    font-family: 'poppins';
+    font-weight: normal;
+    font-style: normal;
+  
+}
+
+#poppins1{
+    font-family: 'poppins';
+    font-weight:normal ;
+    font-style: italic;
+}
+
+
+#poppins2{
+    font-family: 'poppins';
+    font-weight:bold ;
+    font-style: normal;
+}
+
+
+#poppins3{
+    font-family: 'poppins';
+    font-weight:bold ;
+    font-style: italic;
+}
+
+
+#caviar{
+    font-family: 'caviar';
+    font-style: normal ;
+    font-weight: normal;
+}
+#caviar1{
+    font-family: 'caviar';
+    font-style: normal ;
+    font-weight: bold;
+}
+#caviar2{
+    font-family: 'caviar';
+    font-style: Italic ;
+    font-weight: bold;
+}
+#caviar3{
+    font-family: 'caviar';
+    font-style: italic ;
+    font-weight: normal;
+}
+
+#teko{
+    font-family:'teko' ;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#teko1{
+    font-family:'teko' ;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#teko2{
+    font-family:'teko' ;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#teko3{
+    font-family:'teko' ;
+    font-style: italic;
+    font-weight: bold;
+}
+
