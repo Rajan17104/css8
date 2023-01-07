@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 85%;
+    height: 500px;
+    border: 2px solid green;
+    margin: 0 auto;
+    float: left; 
+    display: inline;
+}
+
+
+.data img { 
+    width: 20%;
+    height: 60px;
+    float: right; 
+    display: inline;
+}
+
+.box{
+    width: 22%;
+    height:100px ;
+    margin: 30px;
+    float: left;    
+}
+
+.box img{
+    width: 70%;
+    height:120px ;
+    margin-bottom:10px ;
+    border-radius: 10px;
+}
+
+.box img data{
+    width: 100%;
+    height:20% ;
+    margin: 20px;
+}
