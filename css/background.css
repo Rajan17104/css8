@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 1000px;
+    height: 1200px;
+    background-image:url("../images/images/image1.jpg");
+    background-repeat: no-repeat;
+    /* background-position: top right;   */
+    background-attachment: fixed;
+    background-color: black;
+}
+
+ .image{
+    background: #000 url("../images/images/image1.jpg") no-repeat scroll;
+} 

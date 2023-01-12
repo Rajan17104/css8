@@ -1,0 +1,21 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.image{ 
+    width: 1000px;
+    height:600px;
+    position: relative;
+    background-repeat: repeat-y;
+}
+
+.image img{
+    width: 1000px;
+    height:600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
