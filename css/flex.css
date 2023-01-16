@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    font-size: 26px;
+    color:#fff;
+    display: flex;
+    gap: 40px 50px;
+}
+
+.block1{
+    width: 150px;
+    height: 100px;
+    background-color: red;
+}
+
+.block2{
+    width: 200px;
+    height: 150px;
+    background-color: #000;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.justFyCen{
+    justify-content: center;
+} 
+
+.justFySpcBtw{
+    justify-content: space-between;
+}
+
+.justFySpcArd{
+    justify-content: space-around;
+}
+
+.justFySpcEvl{
+    justify-content: space-evenly;
+}
+
+.AlCen{
+    align-items: center;
+}
+
+.Alstart{
+    align-items: flex-start;
+}
+
+.Alend{
+    align-items: flex-end;
+}
+
+.AlConCenter{
+    align-content: center;
+}
+.AlConStart{
+    align-content: flex-start;
+}
+.AlConEnd{
+    align-content: flex-end;
+}
+.AlConSpBtw{
+    align-content: space-between;
+}
+.AlConSpArd{
+    align-content: space-around;
+}
+
+.flexDrc{
+    flex-direction: column;
+}
