@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    width: 200px;
+    height: 100px;
+}
+nav {
+    margin-left: auto;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    margin-right: 24px;
+}
+.active, nav ul li a:hover {
+    border-bottom: 2px solid brown;
+    color: brown;
+}
+header button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-right: 16px;
+}
