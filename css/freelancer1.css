@@ -231,28 +231,37 @@ hr {
     border-radius: 2px;
     padding: 10px 20px;
     font-weight: bold;
-    margin-top:80px ;
+    margin-top:40px ;
+    margin-bottom: 60px;
 }
 
-.help {
-    height: 400px;
+#help {
+    height: 380px;
     margin-top: 40px;
     background-color: #1F2836;
     color: #F7F7F7;
     font-size: 28px;
-    padding: 50px 180px;
+    padding-top:50px ;
+     
 }
+/* #help h2{
+    margin-top: 300px;
+} */
 
-.help h5 {
-    font-size: 26px;
+.help p {
+    font-size: 24px;
     color: #F7F7F7;
     margin: 25px 0px;
 }
 
-.help p {
-    font-size: 26px;
-    color: #F7F7F7;
-    border: 1px solid #DEDEDE;
-
+.helpdata1 p u{
+   float: left;
+   margin-right: 100px;
 
 }
+.helpdata2 p u{
+    float: left;
+    margin-right: 120px;
+    margin-top: 30px;
+ 
+ }
