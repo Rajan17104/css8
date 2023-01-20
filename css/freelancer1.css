@@ -234,6 +234,7 @@ hr {
     margin-top:40px ;
     margin-bottom: 60px;
 }
+/* help */
 
 #help {
     height: 380px;
@@ -242,11 +243,7 @@ hr {
     color: #F7F7F7;
     font-size: 28px;
     padding-top:50px ;
-     
 }
-/* #help h2{
-    margin-top: 300px;
-} */
 
 .help p {
     font-size: 24px;
@@ -257,11 +254,43 @@ hr {
 .helpdata1 p u{
    float: left;
    margin-right: 100px;
-
 }
+
 .helpdata2 p u{
     float: left;
     margin-right: 120px;
     margin-top: 30px;
- 
+
  }
+
+ /* freelancer */
+
+ #freelancer{
+    height: 500px; 
+    background-color: #161E2C;
+    color: #F7F7F7;
+    font-size: 28px;
+ }
+
+ .mainlancer{
+    display: flex;
+    gap: 0px 80px;
+    
+ }
+
+ .freelogo img{
+    width: 130px;
+    height: 100px;
+ }
+.freelogo p{
+    font-size: 17px;
+}
+
+.freedata h6{
+    font-size: 16px;
+    margin: 40px 0px;
+}
+.freedata ul li{
+    font-size: 15px;
+    list-style: none;
+}
