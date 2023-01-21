@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0px auto;
+
+}
+.custom{
+    display: flex;
+    margin-top: 100px;
+    gap: 0px 80px;
+}
+
+.customdesc{
+    width: 50%;
+}
+
+.customdesc h2{
+    font-size: 30px;
+  
+}
+
+.customdesc p{
+    font-size: 19px;
+    margin-top: 30px;
+    line-height: 28px;
+    
+}
+.customlogo img{
+    width: 300px;
+
+}
+
+.mainblock{
+    width: 100%;
+    height: 230px;
+    column-gap: 15px;
+    display: flex;
+}
+
+.turnkey{
+    width: 32.33%;
+    padding: 18px;
+    border: 5px solid seashell;
+}
+
+.turnkey h3{
+    margin-bottom: 15px;
+}
+.account{ 
+    width: 32.33%;
+    padding: 18px;
+    border: 5px solid seashell;
+}
+
+.account h3{
+    margin-bottom: 15px;
+}
+
+.invoicing{
+    width: 32.33%;
+    padding: 18px;
+    border: 5px solid seashell;
+}
+.invoicing h3{
+    margin-bottom: 15px;
+}
+.turnkey p{
+    line-height: 20px;
+}
+.account p{
+    line-height: 20px;
+}
+.invoicing p{
+    line-height: 20px;
+}
