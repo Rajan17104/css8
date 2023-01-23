@@ -1,0 +1,58 @@
+/* Direct child */
+.combi > p{
+    color: blue;
+}
+
+/* h2 with p (first) */
+.combi h2+p{
+    font-size: 50px;
+}
+
+/* Next (Direct) */
+.combi div ~p{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.anchor a:link{ 
+    color: red;
+}
+
+.anchor a:hover{
+    color: blue;
+}
+
+.anchor a:active{
+    color: yellow;
+}
+
+.anchor a:visited{
+    color: green;
+}
+
+ul li:first-child p{
+    color: red;
+}
+
+ul li:last-child p{
+    color: blue;
+}
+
+ul li:nth-child(3){
+    color: green;
+    font-size: 20px;
+}
+
+p i:first-child{
+    font-size: 30px;
+    color: red;
+}
+
+p:first-child i{
+    color: blueviolet;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid blue;
+}
