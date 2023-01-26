@@ -21,6 +21,10 @@
     height: 450px;
     border: 2px solid green;
     position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
    
 }
 
@@ -51,6 +55,7 @@
     height: 450px;
     border: 2px solid green;
     position: relative;
+    
 }
 .box3 img, .box4 img{
     width: 100%;
@@ -76,7 +81,10 @@
 }
 
 .innerdata{
-    top: 20px;
-    left: 20px;
+    top: 50%;
+    left: 50%;
     position: absolute;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    text-align: center;
 }
