@@ -1,0 +1,20 @@
+.box{
+    width: 100vw;
+    height: 100vh;
+}
+
+.box1{
+   background-image: linear-gradient(red, green);
+}
+
+.box2{
+    background-image: linear-gradient(to right,rgba(255 0 0 / 0.5),rgba(245 245 24 /0.4));
+}
+
+.box3{
+    background-image: linear-gradient(40deg,rgba(255 0 0 /0.6 ),rgba(205 60 60 /0.5) );
+}
+
+.box4{
+    background-image: linear-gradient(to left ,rgba(255 0 0 /0.6 ),green,deeppink 10%);
+}
