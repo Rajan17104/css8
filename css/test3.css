@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 35px;
+    background-color: #F0F0F0;
+    display: flex;
+}
+.box{
+    margin-left: 200px;
+    margin-top: 6px;
+}
+
+.box a{
+    width: 15px;
+    height: 15px;
+    color: #777777;
+    margin: 30px 10px;
+}
+a:hover{
+    color: orangered;
+}
+
+.data{
+    display: flex;
+    margin-left:300px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+p:hover{
+        color: orangered;   
+}
+.data p{
+    margin:0PX 30PX;
+}
