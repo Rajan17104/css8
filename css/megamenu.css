@@ -31,17 +31,15 @@ header nav ul li a:hover{
 
 .megamenu{
     width: 500px;
-    height: 300px;
     background-color: gray;
     display: flex;
     display: inline-block;
-    /* position: absolute;
-    top: 0px;
-    left: 0; */
+    position: absolute;
+    top: 67px;
+    right: 105px;
 }
 
-.megamenu > li{
-    position: absolute;
-    top: 0;
-    right: 0;
+.megamenu  > li{
+    display: inline-block;
+    
 }
