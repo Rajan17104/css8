@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: #000;
+    transition: all 0.5s;
+}
+
+header nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+header nav ul li:hover a {
+    background-color: #000;
+    color: #fff;
+}
+
+header nav ul li ul {
+    display: inline-block;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    display: none;
+}
+
+header nav ul li ul li,
+header nav ul li ul li ul {
+    width: 100%;
+}
+
+header nav ul li:hover>ul {
+    display: inline-block;
+}
+
+header nav ul li ul li {
+    display: inline-block;
+    padding: 20px;
+    transition: all 0.5s;
+}
+
+header nav ul li ul li ul {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 119px;
+    display: none;
+}
+
+header nav ul li ul:hover li {
+    background-color: gray;
+}
+
+header nav ul li ul ul:hover>li {
+    display: inline-block;
+}
+
+header nav ul li a:hover>i {
+    transform: rotate(90deg);
+}
+
+header nav ul li ul li:hover>i {
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width:768px) {
+
+    header nav>ul {
+        position: absolute;
+        width: 70%;
+        height: 100vh;
+        background-color: skyblue;
+        top: 0;
+        right: 0;
+
+    }
+
+    header nav ul li {
+        display: block;
+    }
+
+    header nav ul li ul,
+    header nav ul li ul li ul {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+
+
+}
