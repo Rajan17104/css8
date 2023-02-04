@@ -17,8 +17,9 @@
         <a href="#">RAJAN</a>
 
         <nav>
-
-            <ul>
+            <i class="fa-solid fa-bars" onclick="toggleData()"></i>
+            <ul id="Data">
+                <i class="fa-solid fa-xmark" onclick="toggleData()"></i>
                 <li><a href="#">Home</a></li>
                 <li>
                     <a href="#">Products <i class="fa-solid fa-chevron-right"></i></a>
@@ -46,6 +47,11 @@
             </ul>
         </nav>
     </header>
+    <script>
+        function toggleData(){
+            document.getElementById("Data").classList.toggle('showHide')
+        }
+    </script>
 </body>
 
 </html>
