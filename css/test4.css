@@ -24,95 +24,19 @@ header nav ul li {
     position: relative;  
 }
 
-header nav ul li a:hover{
+header nav li:hover a{
     background-color: #000;
     color: #fff;
 }
 
-
-header nav ul li ul li,header nav ul li ul li a {
+header nav ul li ul li,header nav ul li ul li a{
     width: 100%;
 }
 
-header nav ul li ul {
-    display:inline-block ;
+header nav ul li ul{
+    display: inline-block;
     position: absolute;
     top: 50px;
-    left: 0;
-    background-color: gray;
-    display: none;
-    
-}
-header nav ul li:hover > ul{
-    display: inline-block;
-}
-
-header nav ul li li  ul{
-    position: absolute;
-    top: 0;
-    left: 118px;
-}
-nav > i,nav > ul > i{
-    display: none !important;
-}
-
-nav ul li a:hover i{
-    transform: rotate(90deg);
-}
-
-@media screen and (max-width:768px) {
-
-     nav>ul {
-        position: absolute;
-        width: 70%;
-        height: 100vh;
-        background-color: skyblue;
-        top: 0;
-        right: 0;
-        display: none;
-
-    }
-
-    header nav ul li {
-        display: block;
-    }
-
-    header nav ul li ul,
-    header nav ul li ul li ul {
-        position: relative;
-        width: 100%;
-        top: 0;
-        left: 0;
-    }
-    header nav ul li ul li > a {
-        padding-left: 40px;
-    }
-    header nav ul li ul li ul li > a{
-        padding-left: 60px;
-    }
-
-    header nav ul li a{
-        width: 100%;
-    }
-
-    nav ul >i{
-        position: relative;
-        display: inline-block !important;
-        z-index: 999;
-        float: right;
-        padding: 20px;
-        font-size: 20px;
-        display: none;
-    }
-
-    nav > i{
-        font-size: 20px;
-        padding: 20px;
-        display: inline-block !important;
-    }
-
-    .showhide{
-        right: -70px;
-    }
-
+    left:0;
+    padding: 20px;
 }
