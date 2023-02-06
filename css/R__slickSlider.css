@@ -1,0 +1,14 @@
+body{
+    background-color: red;
+}
+.main .main_s{
+    width: 100%;
+    height: 100vh;
+}
+
+.main .main_s img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
