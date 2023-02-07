@@ -65,9 +65,6 @@ body {
     bottom: 0px;
 }
 
-@media screen and (max-width:500px){
-    
-}
 
 .Product .main-product{
     width: 100%;
@@ -81,3 +78,59 @@ body {
     object-position: center;
 }
 
+.product .slick-next{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 30px;
+    border: 2px solid red;
+}
+
+.product i{
+    background-color: #000;
+}
+.product .slick-next:before{
+    content: "\f054";
+    font-family: "Font Awesome 6 Free";
+}
+
+.product .slick-prev:before{
+    content: "\f053";
+    font-family: "Font Awesome 6 Free";
+}
+
+.product .slick-prev{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    text-align: center;
+    background-color: red;
+    border-radius: 30px;
+    border: 2px solid black;
+    z-index: 999;
+}
+
+.product .slick-dots li button:before{
+    font-size: 50px;
+}
+
+.product .slick-dots{
+    bottom: 0;
+}
+
+
+.product .slick-dots li.slick-active button:before{
+    color: black;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: black;
+}
