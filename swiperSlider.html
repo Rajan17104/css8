@@ -57,7 +57,7 @@
             // If we need pagination
             pagination: {
                 el: '.swiper-pagination',
-                clickable:true
+                clickable: true
             },
 
             // Navigation arrows
@@ -69,6 +69,103 @@
             // And if we need scrollbar
             scrollbar: {
                 el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .mySwiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  </style>
+</head>
+
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./images/images/pexels-aleksey-kuprikov-3493777.jpg" alt="">
+        
+                <img src="./images/images/pexels-alex-azabache-3214944.jpg" alt="">
+           
+                <img src="./images/images/pexels-andy-vu-3244513.jpg" alt="">
+         
+                <img src="./images/images/pexels-clive-kim-4220967.jpg" alt="">
+            
+                <img src="./images/images/pexels-eberhard-grossgasteiger-1699030.jpg" alt="">
+           
+                <img src="./images/images/pexels-eberhard-grossgasteiger-572897.jpg" alt="">
+
+                <img src="./images/images/pexels-gianluca-grisenti-4215102.jpg" alt="">
+          
+                <img src="./images/images/pexels-gianluca-grisenti-4215110.jpg" alt="">
+         
+                <img src="./images/images/pexels-jacob-colvin-1761279.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        varswiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 50,
+                },
             },
         });
     </script>
