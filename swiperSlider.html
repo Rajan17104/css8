@@ -46,7 +46,51 @@
         <!-- <div class="swiper-scrollbar"></div> -->
     </div>
 
+
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./images/images/pexels-alex-azabache-3214944.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/images/pexels-andy-vu-3244513.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/images/pexels-eberhard-grossgasteiger-572897.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/images/pexels-jacob-colvin-1761279.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/images/pexels-luis-dalvan-1770809.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/images/pexels-luis-del-río-15286.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/images/pexels-michael-block-3225529.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/images/pexels-movoyagee-4591254.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./images/images/pexels-rachel-claire-4577122.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="prev">
+            <i class="fa-solid fa-chevron-left"></i>
+        </div>
+        <div class="next">
+            <i class="fa-solid fa-chevron-right "></i>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
 
     <script>
         const swiper = new Swiper('.main-slider', {
@@ -57,7 +101,7 @@
             // If we need pagination
             pagination: {
                 el: '.swiper-pagination',
-                clickable:true
+                clickable: true
             },
 
             // Navigation arrows
@@ -69,6 +113,36 @@
             // And if we need scrollbar
             scrollbar: {
                 el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+
+    <script>
+        var swiper1 = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // Navigation arrows
+            navigation: {
+                nextEl: '.next',
+                prevEl: '.prev',
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 50,
+                },
             },
         });
     </script>
