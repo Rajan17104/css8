@@ -12,7 +12,6 @@
 
     
         <section id="container">
-           
                 <div class="icon">
                     <i class="fa-brands fa-facebook-f"></i>
                     <i class="fa-brands fa-twitter"></i>
@@ -26,22 +25,38 @@
                 
                     <div class="links">
                         <ul>
-                            <li><a href="#">Gift Certificates  |</a></li>
-                            <li><a href="#">Todays Deal |</a></li>
-                            <li><a href="#">Compare   |</a></li>
-                            <li><a href="#">Wish List   |</a></li>
+                            <li><a href="#">Gift Certificates|</a></li>
+                            <li><a href="#">Todays Deal|</a></li>
+                            <li><a href="#">Compare|</a></li>
+                            <li><a href="#">Wish List|</a></li>
                             <li>
-                                <a href="#" id="account">My Account <i class="fa-solid fa-chevron-right"></i> </a>
-                                <ul>
-                                    <li><a href="#">Surat</a></li>
-                                    <li><a href="#">Ahemdabad</a></li>
-                                    <li><a href="#">baroda</a></li>
+                                <a href="#">My Account<i class="fa-solid fa-chevron-down" id="work"></i></a>
+                                <ul class="work1">
+                                    <li><a href="#">Cheakout</a></li>
+                                    <li><a href="#">My Acconut</a></li>
+                                    <li><a href="#">User Login</a></li>
                                 </ul>
-
                             </li>
                         </ul>
                     </div>
-   </section>
+        </section>
+
+   <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+   <script>
+        $(document).ready(function(){
+            $("#work").click(function(){
+                $(".work1").slideToggle();
+                var x = $(this).val();
+                console.log(x);
+            });
+        });
+
+   </script>
+
+
+
     
 </body>
 </html>
