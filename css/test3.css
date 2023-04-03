@@ -50,7 +50,8 @@
     font-size: 12px;
     font-weight: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+    padding: 10px;
+    margin-right: 40px;
 }
 
 .links ul li a:hover {
@@ -58,3 +59,17 @@
     cursor: pointer;
     color: rgb(222, 88, 40);
 }
+
+.links{
+    position: relative;
+}
+
+.links ul li ul li{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 520px;
+    
+
+}
+
