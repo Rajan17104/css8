@@ -8,27 +8,22 @@
 #container {
     display: flex;
     justify-content: space-between;
-    height: 40px;
+    /* height: 40px; */
     background-color: #F0F0F0;
 }
  
 
 .icon {
-    /* display: flex; */
      margin-left: 80px;
      width:30%;
     color: gray;
     size: 10px;
 
-     
-
 }
 
 
 .icon i{
-   
-    /* justify-content: center;  */
-    margin: 10px;
+    padding: 10px;
 
 } 
 
@@ -44,7 +39,7 @@
 .links ul li {
     list-style: none;
     display: inline-block;
-    /* margin: 60px; */
+   
     
 }
 
@@ -55,11 +50,7 @@
     font-size: 12px;
     font-weight: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 13px;
-    /* margin-right: -60px; */
-    /* margin-left: 50px; */
-
-   
+    padding: 20px;
 }
 
 .links ul li a:hover {
